@@ -4,13 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
-  },
+  "start:dev": "nodemon server",
+  "start": "node server",
+  "server": "",
+  "build": "",
+  "install": "",
+  "client": ""
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
