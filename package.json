@@ -4,12 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-  "start:dev": "nodemon server",
-  "start": "node server",
-  "server": "",
-  "build": "",
-  "install": "",
-  "client": ""
+    "dev": "webpack-dev-server", 
+    "build": "webpack", 
+    "start": "webpack && webpack serve"
 },
   "keywords": [],
   "author": "",
