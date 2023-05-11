@@ -17,7 +17,7 @@ const manifestPlugin = new WebpackPwaManifest({
   theme_color: '#333333',
   icons: [
     { 
-      src: path.resolve('src/imges/logo.png'),
+      src: path.resolve('src/images/logo.png'),
       sizes: [96, 128, 192, 256, 384, 512],
       destination: path.join('assets', 'icons')
     }
